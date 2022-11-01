@@ -8,9 +8,8 @@ import csv
 import os
 
 DATA_CSV = 'data.csv'
+brother_dict, brother_list, founding_bros, family_colors = {},[],[],[]
 
-brother_dict, brother_list, founding_bros = {},[],[]
-family_colors = ['gold', 'green', 'blue', 'red', 'orange', "purple", 'white', 'grey', 'navy', 'teal', 'pink']
 
 # generate brother dictonary
 with open(DATA_CSV, mode ='r')as file:
@@ -18,19 +17,26 @@ with open(DATA_CSV, mode ='r')as file:
     csvFile = csv.reader(file)
     index = 0
     # displaying the contents of the CSV file
-    for lines in csvFile:
+    for line in csvFile:
         if index == 0: # read first line which contains founders data
-            lines[0] = lines[0][1:] # gets rid of char \ufeff
-            founding_bros = lines
+            line[0] = line[0][1:] # gets rid of char \ufeff
+            founding_bros = line
+        elif index == 1: # read second line which contains family colors
+            family_colors = line
+            index = 0
+            for color in family_colors:
+                family_colors[index] = color.replace(" ", "")
+                index+=1
+            index = 1
         else:
 
-            if lines != []:
+            if line != []:
             # checks for dupes
-                if lines[0] in brother_dict:
-                    brother_dict[lines[0]] = brother_dict[lines[0]] + [lines[1]]
+                if line[0] in brother_dict:
+                    brother_dict[line[0]] = brother_dict[line[0]] + [line[1]]
                 else:
-                    brother_dict[lines[0]] = [lines[1]]
-                brother_list += [lines[0], lines[1]]
+                    brother_dict[line[0]] = [line[1]]
+                brother_list += [line[0], line[1]]
         index += 1
 
 # remove dupes from bro list
