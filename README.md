@@ -41,5 +41,11 @@ In practice it would looks like this `Luke Langner\r1195 (VPMD),Brandon Kreiser\
 
 One thing to keep in mind is that each tree is grouped together in the `data.csv` according to the founders list. For example if the founders list looks like this `Ryan Price\r877 (PRES),Pitor Czerchowski\r840`, then Ryans family should come first in the big-little pairs and Pitor's should follow.
 
+You can also add comments to `data.csv` with `#`
+
+```
+# This is a comment
+```
+
 ## Running `run.py`
 You can run the program by typing `python3 run.py` into the cli. You will get a pdf output named `brothers.pdf`

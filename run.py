@@ -29,8 +29,7 @@ with open(DATA_CSV, mode ='r')as file:
                 index+=1
             index = 1
         else:
-
-            if line != []:
+            if line != [] and line[0][0] != '#':
             # checks for dupes
                 if line[0] in brother_dict:
                     brother_dict[line[0]] = brother_dict[line[0]] + [line[1]]
