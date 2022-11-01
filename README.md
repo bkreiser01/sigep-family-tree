@@ -39,5 +39,5 @@ B_First B_Last\rRole_Num (EC_POS),L_First L_Last\rRole_Num (EC_POS)
 
 In practice it would looks like this `Luke Langner\r1195 (VPMD),Brandon Kreiser\r1250 (VPF)`
 
-# Running `run.py`
+## Running `run.py`
 You can run the program by typing `python3 run.py` into the cli. You will get a pdf output named `brothers.pdf`
