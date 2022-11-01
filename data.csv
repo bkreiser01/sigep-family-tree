@@ -1,10 +1,10 @@
-﻿Ryan Price\r877 (PRES),Pitor Czerchowski\r840,Neil Patel\r861 (VPC),Chris Lantz\r837 (VPMD)
-gold                  ,green                 ,tan                  ,red                     ,orange,purple,white,grey,navy,teal,pink
+﻿Ryan Price\r877 (P),Pitor Czerchowski\r840,Neil Patel\r861 (VPC),Chris Lantz\r837 (VPMD),Mike Cardinale\r841 (VPC),
+gold                  ,green              ,tan                  ,orange                 ,red                      ,purple,white,grey,navy,teal,pink
 
 # RYAN PRICE FAMILY TREE
-Ryan Price\r877 (PRES),Mike DeCoro\r904
-Ryan Price\r877 (PRES),Mohammed Abouf\r909
-Ryan Price\r877 (PRES),Kevin Flammia\r933
+Ryan Price\r877 (P),Mike DeCoro\r904
+Ryan Price\r877 (P),Mohammed Abouf\r909
+Ryan Price\r877 (P),Kevin Flammia\r933
 Mike DeCoro\r904,Ken Meerendonk\r937
 Mohammed Abouf\r909,Kevin Sampson\r943
 Kevin Sampson\r943,John Sangiovanni\r979
@@ -28,29 +28,29 @@ Mohammed Abouf\r909,Hamza Mohamed\r970
 Hamza Mohamed\r970,Amro Elhalim\r1024
 Hamza Mohamed\r970,Tim Baccaro\r1039
 Tim Baccaro\r1039,Collin Newman\r1070
-Tim Baccaro\r1039,Troy Kanaszka\r1088 (PRES)
-Troy Kanaszka\r1088 (PRES),Nathan Schaefer\r1133
+Tim Baccaro\r1039,Troy Kanaszka\r1088 (P)
+Troy Kanaszka\r1088 (P),Nathan Schaefer\r1133
 Nathan Schaefer\r1133,Douglas Wrede\r1060 (VPMD)
 Douglas Wrede\r1060 (VPMD),Luke Langner\r1195 (VPMD)
-Luke Langner\r1195 (VPMD),Adrian Castellanos\r1238
+Luke Langner\r1195 (VPMD),Adrian Castellanos\r1238 (VPLC VPMD)
 Luke Langner\r1195 (VPMD),Brandon Kreiser\r1250 (VPF)
 Douglas Wrede\r1060 (VPMD),Garrett Kincaid\r1202 (C)
 Garrett Kincaid\r1202 (C),Rocco Polimeni\r1236
 Mohammed Abouf\r909,Ed Paulosky\r1002
-Ed Paulosky\r1002,Jeff Nicholls\r1029
-Jeff Nicholls\r1029,Peter Giannini\r1051
-Jeff Nicholls\r1029,Spenser Swanton\r1086
-Spenser Swanton\r1086,Christian Thompson\r1116
-Christian Thompson\r1116,Liam McAllister\r1155
-Jeff Nicholls\r1029,Andrew Freiling\r1065
-Andrew Freiling\r1065,Josh Bloom\r1107
-Josh Bloom\r1107,Nicolas Nuila\r1146
-Nicolas Nuila\r1146,Jesse Priest\r1168
-Jesse Priest\r1168,Andrew Phillips\r1205
-Andrew Phillips\r1205,Brian Spector\r1241
-Jesse Priest\r1168,Enis Rama\r1229
-Andrew Freiling\r1065,Joe Puciloski\r1140
-Joe Puciloski\r1140,Dan Bianchini\r1196
+Ed Paulosky\r1002,Jeff Nicholls\r1029 (VPC)
+Jeff Nicholls\r1029 (VPC),Peter Giannini\r1051
+Jeff Nicholls\r1029 (VPC),Spenser Swanton\r1086
+Spenser Swanton\r1086,Christian Thompson\r1116 (VPP)
+Christian Thompson\r1116 (VPP),Liam McAllister\r1155
+Jeff Nicholls\r1029 (VPC),Andrew Freiling\r1065
+Andrew Freiling\r1065,Josh Bloom\r1107 (VPMD)
+Josh Bloom\r1107 (VPMD),Nicolas Nuila\r1146 (VPMD)
+Nicolas Nuila\r1146 (VPMD),Jesse Priest\r1168 (VPF)
+Jesse Priest\r1168 (VPF),Andrew Phillips\r1205 (VPC)
+Andrew Phillips\r1205 (VPC),Brian Spector\r1241
+Jesse Priest\r1168 (VPF),Enis Rama\r1229
+Andrew Freiling\r1065,Joe Puciloski\r1140 (VPC)
+Joe Puciloski\r1140 (VPC),Dan Bianchini\r1196
 Dan Bianchini\r1196,Robbie Roettger\r1187
 Robbie Roettger\r1187,Jacob Waka\r1218
 
@@ -173,3 +173,11 @@ Steve Chick\r940,Francis Garcia\r961
 Francis Garcia\r961,Justen Puglisi\r983
 Francis Garcia\r961,Kyle Buzby\r997
 Francis Garcia\r961,John Meagher\1048
+
+# MIKE CARDINALE FAMILY TREE
+Mike Cardinale\r841 (VPC),Will Daly\r906 (VPP)
+Will Daly\r906 (VPP),Steve Lonison\r919 (VPC)
+Will Daly\r906 (VPP),Matt Glassman\r938
+Matt Glassman\r938,Brad Warren\r958
+Brad Warren\r958,Travis Thompson-Sevcik\r990
+Brad Warren\r958,Alex Cihanowyz\r1038
