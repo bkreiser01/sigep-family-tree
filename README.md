@@ -8,7 +8,7 @@ This is a script to generate a family tree for the New Jersey Alpha chaper of Si
 ## Setup
 Clone the git repository
 
-Configure `data.csv ` to however you would like (Feel free to use the provided data as a guide)
+Configure `data.csv` to however you would like (Feel free to use the provided data as a guide)
 
 ## How is the `data.csv` formatted
 There are three sections to `data.csv`
