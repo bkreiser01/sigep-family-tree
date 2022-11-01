@@ -1,12 +1,15 @@
+##################################################
+## Author: Brandon Kreiser -1250
+## Description: This program generates multiple
+##              family trees from a given CSV
+##################################################
 import graphviz
 import csv
 import os
 
 DATA_CSV = 'data.csv'
 
-brother_dict = {}
-brother_list = []
-founding_bros = []
+brother_dict, brother_list, founding_bros = {},[],[]
 family_colors = ['gold', 'green', 'blue', 'red', 'orange', "purple", 'white', 'grey', 'navy', 'teal', 'pink']
 
 # generate brother dictonary
@@ -16,9 +19,8 @@ with open(DATA_CSV, mode ='r')as file:
     index = 0
     # displaying the contents of the CSV file
     for lines in csvFile:
-        # read first line
-        if index == 0:
-            lines[0] = lines[0][1:]# gets rid of char \ufeff
+        if index == 0: # read first line which contains founders data
+            lines[0] = lines[0][1:] # gets rid of char \ufeff
             founding_bros = lines
         else:
 
@@ -46,11 +48,13 @@ graph_main = graphviz.Digraph(
     edge_attr={"arrowhead": "none"}
 )
 
+# creates the first subgraph
 subgraphs = []
 current_subgraph = graphviz.Digraph(
         node_attr={"style": "filled","fillcolor": family_colors[0]}
 )
 
+# create a subgraph for each family and nodes for each bro
 index = 1
 for bro in brother_list:
     if bro in founding_bros:
@@ -61,6 +65,7 @@ for bro in brother_list:
         index+=1
     current_subgraph.node(bro, bro)
 
+# iterate through big-little pairs and connect them in their subgraphs
 index = 0
 for big in brother_dict:
     if big in founding_bros:
@@ -69,11 +74,9 @@ for big in brother_dict:
     for little in brother_dict[big]:
         current_subgraph.edge(big, little)
 
+# join all subgraphs together
 for subgraph in subgraphs:
     graph_main.subgraph(subgraph)
 
 graph_main.render('brothers', view=True)
-try:
-    os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
-except:
-    print('Could not clean up after myself')
+os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
