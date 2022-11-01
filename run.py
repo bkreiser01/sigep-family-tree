@@ -14,7 +14,7 @@ brother_dict, brother_list, founding_bros, family_colors = {},[],[],[]
 # generate brother dictonary
 with open(DATA_CSV, mode ='r')as file:
     # reading the CSV file
-    csvFile = csv.reader(file)
+    csvFile = csv.reader(file) 
     index = 0
     # displaying the contents of the CSV file
     for line in csvFile:
