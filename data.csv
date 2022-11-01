@@ -15,7 +15,7 @@ Vlad Conrat\r1102,Conor Manning\r1136 (VPR)
 Conor Manning\r1136 (VPR),Jake Meiskin\r1162
 Jake Meiskin\r1162,Brian Taglialavore\r1214 (VPR)
 Jake Meiskin\r1162,Akash Rana\r1230
-Brian Taglialavore\r1214 (VPR), Evan Poust\r1240
+Brian Taglialavore\r1214 (VPR),Evan Poust\r1240
 Kevin Sampson\r943,Andrew Verderame\r985
 Kevin Sampson\r943,Mike Carrano\r1006
 Mike Carrano\r1006,Kenny Goff\r1027
@@ -107,6 +107,60 @@ Dominic Lovasco\r1082,Kevin Leddy\r1167
 
 # CHRIS LANTZ FAMILY TREE
 Chris Lantz\r837 (VPMD),Amith Nayak\r901 (VPMD)
+Amith Nayak\r901 (VPMD),Bryant DeFranco\r952
+Bryant DeFranco\r952,Adam Marrakchi\r962 (VPR)
+Adam Marrakchi\r962 (VPR),Mitch Hoffert\r1007
+Mitch Hoffert\r1007,Sebastian Castrillon\r1062
+Adam Marrakchi\r962 (VPR),Steve Berrio\r1021
+Adam Marrakchi\r962 (VPR),Julian Colon\r1030
+Bryant DeFranco\r952,Jon Rohan\r1003
+Jon Rohan\r1003,Ryan Charterina\r1035
+Jon Rohan\r1003,Andrew Bean\r1056
+Andrew Bean\r1056,Jon Schiavone\r1096
+Jon Rohan\r1003,Michael McCarthy\r1073
+Michael McCarthy\r1073,Preston Horan\r1125
+Preston Horan\r1125,Andrew Caruso\r114
+Andrew Caruso\r114,David Bellah\r1192
+David Bellah\r1192,Chris Caligara\r1221
+David Bellah\r1192,Justin Ip\r1227
+Amith Nayak\r901 (VPMD),Tim Karl\r999
+Amith Nayak\r901 (VPMD),Steve Koch\r941 (VPF)
+Steve Koch\r941 (VPF),Anthony Lepre\r959 (C)
+Anthony Lepre\r959 (C),Michael Warnock\r1032
+Anthony Lepre\r959 (C),Brian Baranyay\r988 (P VPMD)
+Brian Baranyay\r988 (P VPMD),Jordan Musoff\r1058 (VPF)
+Jordan Musoff\r1058 (VPF),Luke Rivera\r1108
+Brian Baranyay\r988 (P VPMD),Greg Nikogosyan\r1025
+Greg Nikogosyan\r1025,Matt Bombard\r1060
+Matt Bombard\r1060,Bryan Gardner\r1094 (VPF)
+Bryan Gardner\r1094 (VPF),Chris Keenan\r1170
+Chris Keenan\r1170,Tommy Pinto\r1197
+Matt Bombard\r1060,Matt DiMarco\r1105
+Matt DiMarco\r1105,Daniel Raleigh\r1174 (P)
+Daniel Raleigh\r1174 (P),Steven Skros\r1244
+Daniel Raleigh\r1174 (P),Ryan Hagan\r1216
+Ryan Hagan\r1216,Sam Remetz\r1243
+Brian Baranyay\r988 (P VPMD),Elvin Abreu\r1089
+Elvin Abreu\r1089,Daniel Lum\r1132
+Daniel Lum\r1132,Domenic Malfetano\r1163 (VPMD)
+Domenic Malfetano\r1163 (VPMD),Dom Zecchino\r1219
+Daniel Lum\r1132,Nick Weisz\r1149
+Nick Weisz\r1149,Joe Letizia\r1210
+Nick Weisz\r1149,Ethan Guerra\r1184 (VPC)
+Ethan Guerra\r1184 (VPC),Sean Tom\r1208
+Nick Weisz\r1149,Alex Murtagh\r1191
+Alex Murtagh\r1191,Kendall Niles-Peretz\r1209
+Elvin Abreu\r1089,Cris Collado\r1127
+Cris Collado\r1127,Justin DeTone\r1148
+Cris Collado\r1127,Parker Petroff-Rims\r1196
+Cris Collado\r1127,Niko Lambert\r1171
+Niko Lambert\r1171,Alex Franke\r1247
+Anthony Lepre\r959 (C),DeVon Lineman\r1013 (VPMD)
+DeVon Lineman\r1013 (VPMD),Kyle Shaw\r10--
+DeVon Lineman\r1013 (VPMD),Jeff Earl\r1061
+Jeff Earl\r1061,Harold Rogers\r1111
+DeVon Lineman\r1013 (VPMD),Andrew DeRogatis\r1046
+Andrew DeRogatis\r1046,Austin Swain\r1072
 Amith Nayak\r901 (VPMD),Matt Nebesny\r920
 Matt Nebesny\r920,Dan Tipaldo\r1004
 Matt Nebesny\r920,Tommy MacKinnon\r927
@@ -119,13 +173,3 @@ Steve Chick\r940,Francis Garcia\r961
 Francis Garcia\r961,Justen Puglisi\r983
 Francis Garcia\r961,Kyle Buzby\r997
 Francis Garcia\r961,John Meagher\1048
-Amith Nayak\r901 (VPMD),Tim Karl\r999
-Amith Nayak\r901 (VPMD),Steve Koch\r941 (VPF)
-Steve Koch\r941 (VPF),Anthony Lepre\r959 (C)
-Anthony Lepre\r959 (C),Michael Warnock\r1032
-Anthony Lepre\r959 (C),DeVon Lineman\r1013 (VPMD)
-DeVon Lineman\r1013 (VPMD),Kyle Shaw\r10--
-DeVon Lineman\r1013 (VPMD),Jeff Earl\r1061
-Jeff Earl\r1061,Harold Rogers\r1111
-DeVon Lineman\r1013 (VPMD),Andrew DeRogatis\r1046
-Andrew DeRogatis\r1046,Austin Swain\r1072
