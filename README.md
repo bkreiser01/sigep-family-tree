@@ -31,13 +31,15 @@ Ryan Price\r877 (PRES),Pitor Czerchowski\r840
 gold                  ,green
 ```
 
-And last but not least the little pairs should be formatted as such
+And last but not least the little pairs should be formatted as such.
 
 ```
 B_First B_Last\rRole_Num (EC_POS),L_First L_Last\rRole_Num (EC_POS)
 ```
 
 In practice it would looks like this `Luke Langner\r1195 (VPMD),Brandon Kreiser\r1250 (VPF)`
+
+One thing to keep in mind is that each tree is grouped together in the `data.csv` according to the founders list. For example if the founders list looks like this `Ryan Price\r877 (PRES),Pitor Czerchowski\r840`, then Ryans family should come first in the big-little pairs and Pitor's should follow.
 
 ## Running `run.py`
 You can run the program by typing `python3 run.py` into the cli. You will get a pdf output named `brothers.pdf`
