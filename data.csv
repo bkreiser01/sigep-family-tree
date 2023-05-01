@@ -1,4 +1,4 @@
-Ryan Price\r877 (P),Neil Patel\r861 (VPC),Pitor Czerchowski\r840,Chris Lantz\r837 (VPMD),Mike Cardinale\r841 (VPC),Gerard Moreno\r836 (P VPMD),Kirk Deligiannis\r890,Eric Mui\r863 (P),Josh Zawislak\r809,Danny Kwok\r858,Jacek Janczewski\r831
+﻿Ryan Price\r877 (P),Neil Patel\r861 (VPC),Pitor Czerchowski\r840,Chris Lantz\r837 (VPMD),Mike Cardinale\r841 (VPC),Gerard Moreno\r836 (P VPMD),Kirk Deligiannis\r890,Eric Mui\r863 (P),Josh Zawislak\r809,Danny Kwok\r858,Jacek Janczewski\r831
 gold               ,green                ,tan                   ,orange                 ,red                      ,purple                     ,white                ,grey             ,navy              ,teal           ,pink
 
 # RYAN PRICE FAMILY TREE
@@ -8,8 +8,8 @@ Ryan Price\r877 (P),Kevin Flammia\r933
 Mike DeCoro\r904,Ken Meerendonk\r937
 Mohammed Abouf\r909,Kevin Sampson\r943
 Kevin Sampson\r943,John Sangiovanni\r979
-John Sangiovanni\r979,Mike VonGonten\r1005 (VPMD)
-Mike VonGonten\r1005 (VPMD),Michael Kressaty\r1068 (VPF)
+John Sangiovanni\r979,Mike VonGonten\r1005 (MD)
+Mike VonGonten\r1005 (MD),Michael Kressaty\r1068 (VPF)
 Michael Kressaty\r1068 (VPF),Vlad Conrat\r1102
 Vlad Conrat\r1102,Conor Manning\r1136 (VPR)
 Conor Manning\r1136 (VPR),Jake Meiskin\r1162
@@ -47,25 +47,12 @@ Andrew Freiling\r1065,Josh Bloom\r1107 (VPMD)
 Josh Bloom\r1107 (VPMD),Nicolas Nuila\r1146 (VPMD)
 Nicolas Nuila\r1146 (VPMD),Jesse Priest\r1168 (VPF)
 Jesse Priest\r1168 (VPF),Andrew Phillips\r1205 (VPC)
-Andrew Phillips\r1205 (VPC),Brian Spector\r1241 (VPC)
+Andrew Phillips\r1205 (VPC),Brian Spector\r1241
 Jesse Priest\r1168 (VPF),Enis Rama\r1229
 Andrew Freiling\r1065,Joe Puciloski\r1140 (VPC)
 Joe Puciloski\r1140 (VPC),Dan Bianchini\r1196
 Dan Bianchini\r1196,Robbie Roettger\r1187
 Robbie Roettger\r1187,Jacob Waka\r1218
-Adrian Castellanos\r1238 (VPLC VPMD),Nicolas Diaz-Prado\r1256
-Rocco Polimeni\r1236,Matt Sytsma\r1257 (C)
-Adrian Castellanos\r1238 (VPLC VPMD),Joey Meditz\r1262 (VPMD)
-Garrett Kincaid\r1202 (C),James Schade\r1267
-Brian Taglialavore\r1214 (VPR),Andrew Anantharajah\r1301
-Rocco Polimeni\r1236,Dean Zazzera\r1298
-Joey Meditz\r1262 (VPMD),Caden Stott\r1289 (VPP)
-Adrian Castellanos\r1238 (VPLC VPMD),Jonathan Melamed\r1287
-Akash Rana\r1230,Mateo Picconi\r1300
-Matt Sytsma\r1257 (C),Ross Rampolla\r1291
-Rocco Polimeni\r1236,Steven Hoang\r1274 (VPF)
-Brandon Kreiser\r1250 (VPF),Robby Parmar\r1273
-Brian Spector\r1241 (VPC),Justin Baumann\r1280 (P)
 
 # NIEL PATEL FAMILY TREE
 Neil Patel\r861 (VPC),Scott Picerno\r881
@@ -107,14 +94,6 @@ Paul Turisi-Chung\r1037,Andrew Cernera\r1080
 Paul Turisi-Chung\r1037,John Griggs\r1055
 John Griggs\r1055,Dominic Lovasco\r1082
 Dominic Lovasco\r1082,Kevin Leddy\r1167
-Elias Frieling\r1204,Lucas Acocella\r1252
-Jayden Pereira\r1223,Mark Tarazi\r1253
-Lucas Acocella\r1252,Jett Tinik\r1258 (VPC)
-Jesse Baron\r1226,Angel Clavijo\r1263
-Jayden Pereira\r1223,Uros Nikolic\r1292
-Lucas Acocella\r1252,Marcelo Vazquez\r12--
-Jett Tinik\r1258 (VPC),Chris Opsal\r1286
-Lucas Acocella\r1252,Michael Stevens\r1277
 
 # PETER CZERCHOWSKI FAMILY TREE
 Pitor Czerchowski\r840,Mike Ivey\r891 (C)
@@ -140,7 +119,7 @@ Jon Rohan\r1003,Andrew Bean\r1056
 Andrew Bean\r1056,Jon Schiavone\r1096
 Jon Rohan\r1003,Michael McCarthy\r1073
 Michael McCarthy\r1073,Preston Horan\r1125
-Preston Horan\r1125,Andrew Caruso\r1144
+Preston Horan\r1125,Andrew Caruso\r114
 Andrew Caruso\r114,David Bellah\r1192
 David Bellah\r1192,Chris Caligara\r1221
 David Bellah\r1192,Justin Ip\r1227
@@ -166,7 +145,7 @@ Elvin Abreu\r1089,Daniel Lum\r1132
 Daniel Lum\r1132,Domenic Malfetano\r1163 (VPMD)
 Domenic Malfetano\r1163 (VPMD),Dom Zecchino\r1219
 Daniel Lum\r1132,Nick Weisz\r1149
-Nick Weisz\r1149,Joe Letizia\r1210 (VPP)
+Nick Weisz\r1149,Joe Letizia\r1210
 Nick Weisz\r1149,Ethan Guerra\r1184 (VPC)
 Ethan Guerra\r1184 (VPC),Sean Tom\r1208
 Nick Weisz\r1149,Alex Murtagh\r1191
@@ -183,7 +162,7 @@ Jeff Earl\r1061,Harold Rogers\r1111
 DeVon Lineman\r1013 (VPMD),Andrew DeRogatis\r1046
 Andrew DeRogatis\r1046,Austin Swain\r1072
 Amith Nayak\r901 (VPMD),Matt Nebesny\r920
-Matt Nebesny\r920,Dan Tipaldo\r1004 (VPP)
+Matt Nebesny\r920,Dan Tipaldo\r1004
 Matt Nebesny\r920,Tommy MacKinnon\r927
 Tommy MacKinnon\r927,Brian Servedio\r977
 Tommy MacKinnon\r927,Andrew Kotz\r1015
@@ -193,233 +172,12 @@ Steve Chick\r940,Kevin Gajewski\r983
 Steve Chick\r940,Francis Garcia\r961
 Francis Garcia\r961,Justen Puglisi\r983
 Francis Garcia\r961,Kyle Buzby\r997
-Francis Garcia\r961,John Meagher\r1048
-Dom Zecchino\r1219,Will Porcello\r1249 (VPMD)
-Steven Skros\r1244,Gabe Costa\r1254
-Ryan Hagan\r1216,Burke Perrotta\r1246
-Alex Franke\r1247,Carver Weirick\r1264
-Joe Letizia\r1210 (VPP),Charles Marotta\r1294
-Will Porcello\r1249 (VPMD),Moises Quiteno\r1295
-Steven Skros\r1244,Andrew Cheney\r1288
-Kendall Niles-Peretz\r1209,Jerry Cheng\r1269
-Joe Letizia\r1210 (VPP),Michael Monteleone\r1272
+Francis Garcia\r961,John Meagher\1048
 
 # MIKE CARDINALE FAMILY TREE
-Mike Cardinale\r841 (VPC),Kyle Manning\r918
 Mike Cardinale\r841 (VPC),Will Daly\r906 (VPP)
 Will Daly\r906 (VPP),Steve Lonison\r919 (VPC)
 Will Daly\r906 (VPP),Matt Glassman\r938
 Matt Glassman\r938,Brad Warren\r958
 Brad Warren\r958,Travis Thompson-Sevcik\r990
 Brad Warren\r958,Alex Cihanowyz\r1038
-
-# GERARD MORENO FAMILY TREE
-Gerard Moreno\r836 (P VPMD),Jim Waterman\r832 (VPR)
-Gerard Moreno\r836 (P VPMD),Dan Silva\r902 (VPR)
-Jim Waterman\r832 (VPR),Fred Hardenbrook\r886
-Jim Waterman\r832 (VPR),Rob Legemaat\r912
-Jim Waterman\r832 (VPR),Kyle Blanco\r905
-Dan Silva\r902 (VPR),Matty Roman\r931
-Dan Silva\r902 (VPR),Galo Naranjo\r948
-Dan Silva\r902 (VPR),Pete Cardinali\r953
-Fred Hardenbrook\r886,Michael Munley\r888
-Rob Legemaat\r912,Shawn Dorman\r921
-Kyle Blanco\r905,John Barnes\r9--
-Matty Roman\r931,Dan Anunziatta\r978
-Michael Munley\r888,Tom Mongelli\r911
-Michael Munley\r888,Ramon Baez\r925
-Michael Munley\r888,Mike Bertucci\r946
-Shawn Dorman\r921,Rob Couglin\r929
-Shawn Dorman\r921,Pat Meyer\r969 (VPP)
-John Barnes\r9--,Hudson Amaro\r974
-Dan Anunziatta\r978,Matt Shubeck\r1033
-Tom Mongelli\r911,Mark Minervini\r957 (C)
-Mike Bertucci\r946,Dan Tomassi\r955
-Rob Couglin\r929,Joe Schwarze\r968
-Pat Meyer\r969 (VPP),Shawn Warren\r922
-Pat Meyer\r969 (VPP),Kyle Kampo\r1016
-Matt Shubeck\r1033,Derrick Sokol\r1075
-Mark Minervini\r957 (C),Russel Nadler\r1028
-Kyle Kampo\r1016,Bobby Pinto\r1057
-Bobby Pinto\r1057,Luke Hillers\r1087
-Russel Nadler\r1028,Alex Gurski\r1067 (VPC)
-Alex Gurski\r1067 (VPC),Dmitriy Savinskiy\r1097
-
-# KIRK DELIGIANNIS FAMILY TREE
-Kirk Deligiannis\r890,Dan Gennarelli\r896
-Dan Gennarelli\r896,Bobby Truppner\r972 (P)
-Bobby Truppner\r972 (P),David DeWan\r1008
-Bobby Truppner\r972 (P),Chris Bisceglie\r1031 (VPR)
-Bobby Truppner\r972 (P),Dylan Wong\r1040
-Bobby Truppner\r972 (P),Frank Roberto\r1063
-David DeWan\r1008,Sean McNamara\r1023
-Chris Bisceglie\r1031 (VPR),Nathan Quay\r1052(P)
-Chris Bisceglie\r1031 (VPR),Matt Greenfield\r1064 (VPR)
-Dylan Wong\r1040,Rick Housley\r1069
-Frank Roberto\r1063,Zach Caldarola\r1113 (VPC)
-Nathan Quay\r1052(P),Kevin O'Connell\r1085
-Nathan Quay\r1052(P),Zac Binger\r1095 (C)
-Matt Greenfield\r1064 (VPR),Harrison Kaye\r1106 (C)
-Matt Greenfield\r1064 (VPR),Jimmy Flaherty\r1112
-Rick Housley\r1069,Joey Farino\r1093 (VPF)
-Rick Housley\r1069,Branimir Kain\r1100
-Zach Caldarola\r1113 (VPC),Andrew O'Brien\r1145
-Zach Caldarola\r1113 (VPC),AJ Yenna\r1176 (VPF)
-Kevin O'Connell\r1085,Kevin Baccaro\r1119
-Zac Binger\r1095 (C),Blake Kawalski\r1158 (C)
-Zac Binger\r1095 (C),Giovanni Koleshnick\r1166
-Jimmy Flaherty\r1112,Daniel Lawrence\r1143
-Joey Farino\r1093 (VPF),Ryan Tom\r1180
-Branimir Kain\r1100,Alex Bhuse\r1147
-AJ Yenna\r1176 (VPF),AJ Kloza\r1220
-AJ Yenna\r1176 (VPF),Cooper Garren\r1232 (VPF)
-AJ Yenna\r1176 (VPF),Ankur Vijayvargiya\r1242
-Blake Kawalski\r1158 (C),Thomas Kautzmann\r1193
-Daniel Lawrence\r1143,Kenny Otten III\r1179
-Ryan Tom\r1180,Charlie McClellan\r1222
-Ryan Tom\r1180,Bhagyesh Patel\r1233
-Alex Bhuse\r1147,Jon Ku\r1182
-Kenny Otten III\r1179,Jason Chlus\r1200
-Kenny Otten III\r1179,Jason Rosen\r1217
-Jon Ku\r1182,Dan Lentini\r1215 (P)
-Jason Rosen\r1217,Murray Elinson\r1237
-Dan Lentini\r1215 (P),Mehrab Syed\r1247 (VPP)
-Murray Elinson\r1237,Kenny Howell\r1261
-Mehrab Syed\r1247 (VPP),Ahmed Ghani\r1259
-Cooper Garren\r1232 (VPF),Harrison Huston\r1293
-Kenny Howell\r1261,Zack Chirico\r1290
-Bhagyesh Patel\r1233,Jason Wong\r1271
-Mehrab Syed\r1247 (VPP),Taylan Mansur\r1276
-Cooper Garren\r1232 (VPF),Brandon Joel\r1282
-
-# ERIC MUI FAMILY TREE
-Eric Mui\r863 (P),Chris Babula\r889 (VPP VPR)
-Eric Mui\r863 (P),Andrew Fessler\r908
-Chris Babula\r889 (VPP VPR),Will Epperson\r914 (VPF)
-Chris Babula\r889 (VPP VPR),Andrew Boyle\r930 (P VPMD)
-Andrew Fessler\r908,Jason Cohen\964
-Will Epperson\r914 (VPF),Mike Pagliaro\r934
-Andrew Boyle\r930 (P VPMD),Aaron Ostrovsky\r1001
-Jason Cohen\964,Dan Gregorio\r1041
-
-# JOSH ZAWISLAK FAMILY TREE
-Josh Zawislak\r809,John Frega\r843
-Josh Zawislak\r809,Mike Paragano\r856
-Josh Zawislak\r809,James Woolley\r880
-Mike Paragano\r856,Jesse Chents\r9--
-Mike Paragano\r856,Chris Julien\r916
-James Woolley\r880,Ray Kirchhof\r887 (VPF)
-James Woolley\r880,Brian Smith\r923
-James Woolley\r880,Alex Sota\r903
-Ray Kirchhof\r887 (VPF),Brandon Murphy\r935
-Alex Sota\r903,Pedro Pimienta\r910 (VPP)
-Alex Sota\r903,Zac Zatorski\r926
-Alex Sota\r903,James Clague\r951
-Alex Sota\r903,Chris Dorman\r967 (VPC)
-Brandon Murphy\r935,Nick Gentile\r963 (VPP)
-Brandon Murphy\r935,Derrek Thompson-Sevcik\r981
-Zac Zatorski\r926,Nick Alzapeidi\r996
-Nick Gentile\r963 (VPP),Mike Cianfaglione\r998 (VPR)
-Nick Gentile\r963 (VPP),Brandon Wahl\r1018
-Derrek Thompson-Sevcik\r981,Ryan Azzam\r1011
-Mike Cianfaglione\r998 (VPR),Christian Geary\r1036 (C)
-Christian Geary\r1036 (C),John Atkinson\r1066
-John Atkinson\r1066,Daniel Turisi-Chung\r1126
-Daniel Turisi-Chung\r1126,Simas Glebavicius\r1178
-Brandon Wahl\r1018,Jorge Rivera\r1091
-Ryan Azzam\r1011,Justen Wenthold\r1014
-Ryan Azzam\r1011,Ryan Lacy\r1042
-Jorge Rivera\r1091,PJ Tuohy\r1115
-PJ Tuohy\r1115,Justin Trugman\r1161
-Justin Trugman\r1161,Luke McEvoy\r1206 (VPC)
-Justin Trugman\r1161,Sean Martin\r1228
-Luke McEvoy\r1206 (VPC),Marco Polimeni\r1235
-Luke McEvoy\r1206 (VPC),Chris Steccato\r1225
-Sean Martin\r1228,Skanda Srikkanth\r1265
-Luke McEvoy\r1206 (VPC),Luke Harney\r1260
-Marco Polimeni\r1235,Dimitri Stamoutsos\r1296
-Marco Polimeni\r1235,Brandan Bonadies\r1279
-
-Kevin Ackerle\r1054,Frankie Garruzzo\r1076
-Kevin Ackerle\r1054,Ayal Ciobotaru\r1084
-Ayal Ciobotaru\r1084,Ken Barthman\r1131
-Frankie Garruzzo\r1076,Brereton Conway\r1142
-Brereton Conway\r1142,Kirk Vasilis\r1181 (VPF)
-Kirk Vasilis\r1181 (VPF),Harrup Singh\r1190
-Harrup Singh\r1190,Andrew Freedman\r1231
-Andrew Freedman\r1231,David Hernandez-Guiro\r1283
-
-Vincent Raimondi\r1074,Vincenzo Manfredi\r1110
-Vincent Raimondi\r1074,Daniel Fenton\r1122 (P)
-Daniel Fenton\r1122 (P),Austin Lowey\r1151
-
-# DANNY KWOK FAMILY TREE
-Danny Kwok\r858,John Golden\r900 (C)
-John Golden\r900 (C),Mike Pawalowski\r945 (C)
-Mike Pawalowski\r945 (C),Victor Servito\r973
-Mike Pawalowski\r945 (C),Oscarly Sanchez\r995
-Victor Servito\r973,Ryan Miskanich\r1010 (VPF)
-Ryan Miskanich\r1010 (VPF),Mike Maglio\r1034
-Mike Maglio\r1034,Joey Cirasa\r1043
-Mike Maglio\r1034,Cory Wiedmann\r1077 (VPP)
-Mike Maglio\r1034,Ryan Bardeer\r1099 (C)
-Joey Cirasa\r1043,Kyle Runko\r1092 (VPMD)
-Cory Wiedmann\r1077 (VPP),Ed Curtin\r1123
-Ryan Bardeer\r1099 (C),Marc Greenfield\r1128 (VPC)
-Kyle Runko\r1092 (VPMD),Michael Langford\r1120
-Kyle Runko\r1092 (VPMD),Taylor Burd\r1134
-Ed Curtin\r1123,Abe Edens\r1156
-Marc Greenfield\r1128 (VPC),Sean Jones\r1152 (VPR)
-Michael Langford\r1120,Daniel Pinto\r1140
-Taylor Burd\r1134,Nick Ventrone\r1173
-Sean Jones\r1152 (VPR),Tyler Zanki\r1186
-Sean Jones\r1152 (VPR),Justin Boyd\r1198 (VPP)
-Daniel Pinto\r1140,Lucas Franz\r1175
-Daniel Pinto\r1140,Hanlin Miao\r1201
-Tyler Zanki\r1186,Ben Gilmore\r1213
-Tyler Zanki\r1186,Matthew Danski\r1224
-Tyler Zanki\r1186,Finn Kennedy\r1239
-Ben Gilmore\r1213,Ben Thompson\r1234
-Ben Gilmore\r1213,Stephen Willey\r1248
-Stephen Willey\r1248,Dustin Conway\r1268
-
-# JACEK JANCZEWSKI FAMILY TREE
-Jacek Janczewski\r831,Peter Movilla\r907 (P VPR)
-Peter Movilla\r907 (P VPR),John Dillon\r915 (C VPC)
-Peter Movilla\r907 (P VPR),Keith Rosso\r928
-Peter Movilla\r907 (P VPR),Brandt Grobeis\r939
-Peter Movilla\r907 (P VPR),Luis Abreu\r971
-John Dillon\r915 (C VPC),Matt Cooper\r942
-John Dillon\r915 (C VPC),Clint McCue\r947 (VPC)
-John Dillon\r915 (C VPC),Chris D'Ambrosio\r976
-Keith Rosso\r928,Tom McMenamin\r928 (VPF)
-Clint McCue\r947 (VPC),Sean Richards\r1009
-Chris D'Ambrosio\r976,Eddie Watt\r1020 (P)
-Sean Richards\r1009,Wes Elford\r1050
-Eddie Watt\r1020 (P),Mike McAree\r1049 (VPMD)
-Eddie Watt\r1020 (P),Scoty Wright\r1083
-Wes Elford\r1050,Kevin Wheatley\r1078 (VPC)
-Mike McAree\r1049 (VPMD),Thomas Halloran\r1071 (VPMD)
-Mike McAree\r1049 (VPMD),Ryan Oldja\r1079
-Mike McAree\r1049 (VPMD),Pat DePaolo\r1098
-Scoty Wright\r1083,Kyle Warnock\r1172
-Kevin Wheatley\r1078 (VPC),Harikrishnan Ravikumar\r1129
-Thomas Halloran\r1071 (VPMD),Chris Volz\r1103
-Pat DePaolo\r1098,Joe Cuomo\r1114
-Pat DePaolo\r1098,Jake Schozer\1139 (P)
-Pat DePaolo\r1098,Michael Grossbarth\r1177
-Kyle Warnock\r1172,Jack Fyda\r1203
-Chris Volz\r1103,Austin McDonnell\r1137
-Joe Cuomo\r1114,Will Kaminskas\r1164
-Jake Schozer\1139 (P),Roger II Grande\r1183
-Jake Schozer\1139 (P),Austin Luo\r1199
-Michael Grossbarth\r1177,Dylan Skurnik\r1194 (C)
-Michael Grossbarth\r1177,Tommy Abello\r1207
-Austin McDonnell\r1137,TJ Magno\r1154
-Roger II Grande\r1183,Jason Tramontana\r1211
-Dylan Skurnik\r1194 (C),Michael Burgos\r1251
-TJ Magno\r1154,Dave Lehman\r1188
-Michael Burgos\r1251,Sam Preston\r1266
-Jason Tramontana\r1211,Anthony Frisolone\r1299
-Michael Burgos\r1251,Aidan Williams-Healy\r1275
-Jason Tramontana\r1211,Anthony Mendo\r1284 (VPLC)
