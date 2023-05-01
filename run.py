@@ -45,7 +45,6 @@ for bro in brother_list:
         tmp_list += [bro]
 brother_list = tmp_list
 
-
 # creates the main graph
 graph_main = graphviz.Digraph(
     engine='dot',
@@ -58,7 +57,7 @@ subgraphs = []
 current_subgraph = graphviz.Digraph(
         node_attr={"style": "filled","fillcolor": family_colors[0]}
 )
-
+print(founding_bros)
 # create a subgraph for each family and nodes for each bro
 index = 1
 for bro in brother_list:
