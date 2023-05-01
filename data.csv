@@ -8,10 +8,8 @@ Ryan Price\r877 (P),Kevin Flammia\r933
 Mike DeCoro\r904,Ken Meerendonk\r937
 Mohammed Abouf\r909,Kevin Sampson\r943
 Kevin Sampson\r943,John Sangiovanni\r979
-John Sangiovanni\r979,Mike VonGonten\r1005 (MD)
-Mike VonGonten\r1005 (MD),Michael Kressaty\r1068 (VPF)
-Michael Kressaty\r1068 (VPF),Vlad Conrat\r1102
-Vlad Conrat\r1102,Conor Manning\r1136 (VPR)
+John Sangiovanni\r979,Mike VonGonten\r1005 (VPMD)
+Mike VonGonten\r1005 (VPMD),Michael Kressaty\r1068 (VPF)
 Conor Manning\r1136 (VPR),Jake Meiskin\r1162
 Jake Meiskin\r1162,Brian Taglialavore\r1214 (VPR)
 Jake Meiskin\r1162,Akash Rana\r1230
@@ -47,12 +45,28 @@ Andrew Freiling\r1065,Josh Bloom\r1107 (VPMD)
 Josh Bloom\r1107 (VPMD),Nicolas Nuila\r1146 (VPMD)
 Nicolas Nuila\r1146 (VPMD),Jesse Priest\r1168 (VPF)
 Jesse Priest\r1168 (VPF),Andrew Phillips\r1205 (VPC)
-Andrew Phillips\r1205 (VPC),Brian Spector\r1241
+Andrew Phillips\r1205 (VPC),Brian Spector\r1241 (VPC)
 Jesse Priest\r1168 (VPF),Enis Rama\r1229
 Andrew Freiling\r1065,Joe Puciloski\r1140 (VPC)
 Joe Puciloski\r1140 (VPC),Dan Bianchini\r1196
 Dan Bianchini\r1196,Robbie Roettger\r1187
 Robbie Roettger\r1187,Jacob Waka\r1218
+Adrian Castellanos\r1238 (VPLC VPMD),Nicolas Diaz-Prado\r1256
+Rocco Polimeni\r1236,Matt Sytsma\r1257 (C)
+Adrian Castellanos\r1238 (VPLC VPMD),Joey Meditz\r1262 (VPMD)
+Garrett Kincaid\r1202 (C),James Schade\r1267
+Brian Taglialavore\r1214 (VPR),Andrew Anantharajah\r1301
+Rocco Polimeni\r1236,Dean Zazzera\r1298
+Joey Meditz\r1262 (VPMD),Caden Stott\r1289 (VPP)
+Adrian Castellanos\r1238 (VPLC VPMD),Jonathan Melamed\r1287
+Akash Rana\r1230,Mateo Picconi\r1300
+Matt Sytsma\r1257 (C),Ross Rampolla\r1291
+Rocco Polimeni\r1236,Steven Hoang\r1274 (VPF)
+Brandon Kreiser\r1250 (VPF),Robby Parmar\r1273
+Brian Spector\r1241 (VPC),Justin Baumann\r1280 (P)
+Vlad Conrat\r1102,Conor Manning\r1136 (VPR)
+Michael Kressaty\r1068 (VPF),Vlad Conrat\r1102
+
 
 # NIEL PATEL FAMILY TREE
 Neil Patel\r861 (VPC),Scott Picerno\r881
