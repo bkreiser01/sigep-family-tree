@@ -7,6 +7,7 @@ import graphviz
 import os
 
 from fraternity import Fraternity
+from brother import Brother
 
 DATA_CSV = 'SigEp.csv'
 family_colors = []
@@ -62,7 +63,6 @@ def gen_graph(brother_dict, brother_list, founding_bros):
 
 def main():
     fraternity = Fraternity(DATA_CSV)
-    
-    print(fraternity)
+    print(fraternity.brothers[0])
 
 main()
