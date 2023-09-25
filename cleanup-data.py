@@ -1,7 +1,6 @@
 ##################################################
-## Author: Brandon Kreiser -1250
-## Description: This program generates multiple
-##              family trees from a given CSV
+## This was created to convert from the old data format to the new one.
+## The old one was bad :(
 ##################################################
 import graphviz
 import csv
@@ -46,42 +45,27 @@ for bro in brother_list:
 brother_list = tmp_list
 
 
-# creates the main graph
-graph_main = graphviz.Digraph(
-    engine='dot',
-    node_attr={"shape": "box"},
-    edge_attr={"arrowhead": "none"}
-)
+new_list = {}
 
-# creates the first subgraph
-subgraphs = []
-current_subgraph = graphviz.Digraph(
-        node_attr={"style": "filled","fillcolor": family_colors[0]}
-)
+with open('clean-data.csv', 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile, delimiter=',',)
+    writer.writerow(["Name","Role Number","Big","EC Position(s)"])
+    for bro in brother_list:
+        first_split = bro.split("\\r")
+        print(first_split)
+        second_split = first_split[1].split(" ")
 
-# create a subgraph for each family and nodes for each bro
-index = 1
-for bro in brother_list:
-    if bro in founding_bros:
-        subgraphs.append(current_subgraph)
-        current_subgraph = graphviz.Digraph(
-            node_attr={"style": "filled","fillcolor": family_colors[index]}
-        )
-        index+=1
-    current_subgraph.node(bro, bro)
+        bro_name = first_split[0]
+        bro_role = second_split[0]
+        bro_big = ""
+        bro_ec = ""
 
-# iterate through big-little pairs and connect them in their subgraphs
-index = 0
-for big in brother_dict:
-    if big in founding_bros:
-        current_subgraph = subgraphs[index]
-        index+=1
-    for little in brother_dict[big]:
-        current_subgraph.edge(big, little)
+        if len(second_split) > 1:
+            bro_ec += " ".join(second_split[1:])
 
-# join all subgraphs together
-for subgraph in subgraphs:
-    graph_main.subgraph(subgraph)
-
-graph_main.render('brothers', view=True)
-os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
+        for big in brother_dict:
+            big_name = big.split("\\r")[0]
+            if bro in brother_dict[big]:
+                bro_big = big_name
+        # print(f"{bro_name},{bro_role},{bro_big},{bro_ec}")
+        writer.writerow([bro_name,bro_role,bro_big,bro_ec])
