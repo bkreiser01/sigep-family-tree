@@ -12,7 +12,15 @@ class Brother(object):
         self.ec = ec
 
     def __repr__(self):
-        return f"[{self.name}, {self.role}, {self.big}, {self.ec}]"
+        return f"{self.name}"
     
     def __str__(self):
-        return f"[{self.name}, {self.role}, {self.big}, {self.ec}]"
+        out = f"Name      | {self.name}\nRole      | {self.role}\nBig       | {self.big}\n"
+        out += f"Little(s) |"
+        if len(self.littles) > 0:
+            for i in range(0, len(self.littles)):
+                if i == 0:
+                    out += f" {self.littles[i].name}"
+                else:
+                    out += f"\n          | {self.littles[i].name}"
+        return out

@@ -20,49 +20,61 @@ def find_founders(bros):
             founders.append(bro)
     return founders
 
-def gen_graph(brother_dict, brother_list, founding_bros):
+def gen_graph(fraternity):
+
     # creates the main graph
-    graph_main = graphviz.Digraph(
+    fraternity_tree = graphviz.Digraph(
         engine='dot',
         node_attr={"shape": "box"},
         edge_attr={"arrowhead": "none"}
     )
 
-    # creates the first subgraph
-    subgraphs = []
-    current_subgraph = graphviz.Digraph(
-            node_attr={"style": "filled","fillcolor": family_colors[0]}
-    )
+    family_trees = []
 
-    # create a subgraph for each family and nodes for each bro
-    index = 1
-    for bro in brother_list:
-        if bro in founding_bros:
-            subgraphs.append(current_subgraph)
-            current_subgraph = graphviz.Digraph(
-                node_attr={"style": "filled","fillcolor": family_colors[index]}
-            )
-            index+=1
-        current_subgraph.node(bro, bro)
+    for family in fraternity.families:
+        family_trees.append(graphviz.Digraph(
+            node_attr={"style": "filled","fillcolor": 'Red'}
+        ))
+    
 
-    # iterate through big-little pairs and connect them in their subgraphs
-    index = 0
-    for big in brother_dict:
-        if big in founding_bros:
-            current_subgraph = subgraphs[index]
-            index+=1
-        for little in brother_dict[big]:
-            current_subgraph.edge(big, little)
+    # # creates the first subgraph
+    # subgraphs = []
+    # current_subgraph = graphviz.Digraph(
+    #         node_attr={"style": "filled","fillcolor": 'Red'}
+    # )
 
-    # join all subgraphs together
-    for subgraph in subgraphs:
-        graph_main.subgraph(subgraph)
+    # # create a subgraph for each family and nodes for each bro
+    # index = 1
+    # for bro in brother_list:
+    #     if bro in founding_bros:
+    #         subgraphs.append(current_subgraph)
+    #         current_subgraph = graphviz.Digraph(
+    #             node_attr={"style": "filled","fillcolor": family_colors[index]}
+    #         )
+    #         index+=1
+    #     current_subgraph.node(bro, bro)
 
-    graph_main.render('brothers', view=True)
+    # # iterate through big-little pairs and connect them in their subgraphs
+    # index = 0
+    # for big in brother_dict:
+    #     if big in founding_bros:
+    #         current_subgraph = subgraphs[index]
+    #         index+=1
+    #     for little in brother_dict[big]:
+    #         current_subgraph.edge(big, little)
+
+    # # join all subgraphs together
+    # for subgraph in subgraphs:
+    #     graph_main.subgraph(subgraph)
+
+    # fraternity_tree.graph_main.render('brothers', view=True)
+    # os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
 
 
 def main():
     fraternity = Fraternity(DATA_CSV)
-    print(fraternity.brothers[0])
+
+    print(fraternity.founders)
+    # gen_graph(Fraternity(DATA_CSV))
 
 main()
