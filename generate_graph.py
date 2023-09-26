@@ -15,10 +15,18 @@ family_colors = []
 def __format(bro):
     return f"{bro.name}\n{bro.role} {bro.ec}"
 
-def __complementaryColor(my_hex):
-    rgb = (my_hex[0:2], my_hex[2:4], my_hex[4:6])
-    comp = ['%02X' % (255 - int(a, 16)) for a in rgb]
-    return ''.join(comp)
+def generate_random_color(mix=None):
+    red = random.randint(0, 255)
+    green = random.randint(0, 255)
+    blue = random.randint(0, 255)
+
+    # Mix the color
+    if mix is not None:
+        red = (red + mix[0]) // 2
+        green = (green + mix[1]) // 2
+        blue = (blue + mix[2]) // 2
+
+    return "#{:02x}{:02x}{:02x}".format(red, green, blue)
 
 def gen_graph(fraternity):
     # creates the main graph
@@ -29,12 +37,10 @@ def gen_graph(fraternity):
     )
 
     for family in fraternity.families:
-        hexadecimal = ''.join([random.choice('ABCDEF0123456789') for i in range(6)])
-
         tree = graphviz.Digraph(
             node_attr={
                 "style": "filled",
-                "fillcolor": '#' + hexadecimal
+                "fillcolor": generate_random_color((255,255,255))
                 }
         )
 
