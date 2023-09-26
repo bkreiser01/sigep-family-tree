@@ -8,44 +8,10 @@ This is a script to generate a family tree for the New Jersey Alpha chaper of Si
 ## Setup
 Clone the git repository
 
-Configure `data.csv` to however you would like (Feel free to use the provided data as a guide)
+The provided `example.csv` is the format that the program is expecting. Rename the example to the CSV to the fraternity name and add your data.
 
-## How is the `data.csv` formatted
-There are three sections to `data.csv`
+## Running `generate_graph.py`
+You can run the program by typing `python3 generate_graph.py example.csv` into the cli.
 
-* List of chapter founders
-* List of founders colors
-* All big-little relationships
-
-The chapter founders should just be a list of the founders in the format you have decided. For what I believe to be the best look I would follow the below format.
-
-```
-First Last\rRole_Num (EC_POSITIONS)
-```
-An example would look like `Brandon Kreiser\r1250 (VPF)` which just formats the cell nicely
-
-The chaper founders colors is the next line and should just be a list of colors such as. `Color1,Color2,Color3` The script wil ignore any spaces you put in here, so you can allign colors with their founders like so.
-
-```
-Ryan Price\r877 (PRES),Pitor Czerchowski\r840
-gold                  ,green
-```
-
-And last but not least the little pairs should be formatted as such.
-
-```
-B_First B_Last\rRole_Num (EC_POS),L_First L_Last\rRole_Num (EC_POS)
-```
-
-In practice it would looks like this `Luke Langner\r1195 (VPMD),Brandon Kreiser\r1250 (VPF)`
-
-One thing to keep in mind is that each tree is grouped together in the `data.csv` according to the founders list. For example if the founders list looks like this `Ryan Price\r877 (PRES),Pitor Czerchowski\r840`, then Ryans family should come first in the big-little pairs and Pitor's should follow.
-
-You can also add comments to `data.csv` with `#`
-
-```
-# This is a comment
-```
-
-## Running `run.py`
-You can run the program by typing `python3 run.py` into the cli. You will get a pdf output named `brothers.pdf`
+## Output
+A pdf named `brothers.pdf`
