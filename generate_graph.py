@@ -5,12 +5,17 @@
 ##################################################
 import graphviz
 import os
+import random
 
 from fraternity import Fraternity
-from brother import Brother
 
 DATA_CSV = 'SigEp.csv'
 family_colors = []
+
+def __complementaryColor(my_hex):
+    rgb = (my_hex[0:2], my_hex[2:4], my_hex[4:6])
+    comp = ['%02X' % (255 - int(a, 16)) for a in rgb]
+    return ''.join(comp)
 
 def gen_graph(fraternity):
     # creates the main graph
@@ -21,8 +26,13 @@ def gen_graph(fraternity):
     )
 
     for family in fraternity.families:
+        hexadecimal = "#"+''.join([random.choice('ABCDEF0123456789') for i in range(6)])
+
         tree = graphviz.Digraph(
-            node_attr={"style": "filled","fillcolor": 'Grey'}
+            node_attr={
+                "style": "filled",
+                "fillcolor": hexadecimal,
+                "fontcolor": '#' + __complementaryColor(hexadecimal)}
         )
 
         # Add the family head and their littles to the tree
