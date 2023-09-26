@@ -8,4 +8,4 @@ class Family(object):
     def __init__(self, h, b):
         self.name = h.name
         self.head = h
-        self.brother = b
+        self.brothers = b

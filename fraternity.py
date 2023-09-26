@@ -1,4 +1,5 @@
 from brother import Brother
+from family import Family
 import csv
 
 class Fraternity(object):
@@ -39,10 +40,16 @@ class Fraternity(object):
         
         # Find the littles for each brother, if there are any
         # Also determine founders
+        founders = []
         for bro in self.brothers:
             self.__find_littles(bro)
             if bro.big == "":
-                self.founders.append(bro)
+                founders.append(bro)
+        
+        # Find descendants of each founder
+        for founder in founders:
+            self.families.append(Family(founder, founder.find_descendants()))
+        
         
 
     def __repr__(self):

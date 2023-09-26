@@ -31,8 +31,8 @@ def gen_graph(fraternity):
     for tree in family_trees:
         fraternity_tree.subgraph(tree)
     
-    fraternity_tree.graph_main.render('brothers', view=True)
-    os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
+    # fraternity_tree.graph_main.render('brothers', view=True)
+    # os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
     
     # ===========LEGACY CODE===========
     # # creates the first subgraph
@@ -63,9 +63,6 @@ def gen_graph(fraternity):
 
 
 def main():
-    fraternity = Fraternity(DATA_CSV)
-
-    print(fraternity.founders[0].find_descendants())
-    # gen_graph(Fraternity(DATA_CSV))
+    gen_graph(Fraternity(DATA_CSV))
 
 main()

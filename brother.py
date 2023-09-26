@@ -15,7 +15,7 @@ class Brother(object):
                 descendants += little.find_descendants()
             return descendants
 
-    def __init__(self, name, role, big, ec):
+    def __init__(self, name=None, role=None, big=None, ec=None):
         self.name = name
         self.role = role
         self.big = big
