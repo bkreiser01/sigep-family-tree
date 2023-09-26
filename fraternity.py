@@ -25,17 +25,17 @@ class Fraternity(object):
     def __init__(self, data):
         data_arr = []
 
-        # The name of the CSV is the name of the fraternity
-        self.name = data.split(".")[0]
-
         # Parse the CSV, adding all data into an array
         with open(data, mode ='r') as file:
             csv_reader = csv.reader(file) 
             for line in csv_reader:
                 data_arr += [line]
-        
+                
+        # First line of the CSV is the name of the fraternity
+        self.name = data_arr[0][0]
+
         # Take all brothers from csv and add them to the brothers list
-        for elem in data_arr[1:]:
+        for elem in data_arr[2:]:
             self.brothers.append(Brother(elem[0], elem[1], elem[2], elem[3]))
         
         # Find the littles for each brother, if there are any
