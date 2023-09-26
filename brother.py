@@ -5,6 +5,16 @@ class Brother(object):
     littles = []
     ec = ""
 
+    def find_descendants(self):
+        if len(self.littles) == 0:
+            return []
+        else:
+            descendants = []
+            for little in self.littles:
+                descendants += [little]
+                descendants += little.find_descendants()
+            return descendants
+
     def __init__(self, name, role, big, ec):
         self.name = name
         self.role = role

@@ -65,7 +65,7 @@ def gen_graph(fraternity):
 def main():
     fraternity = Fraternity(DATA_CSV)
 
-    print(fraternity.founders)
+    print(fraternity.founders[0].find_descendants())
     # gen_graph(Fraternity(DATA_CSV))
 
 main()
