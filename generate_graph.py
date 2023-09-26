@@ -20,19 +20,26 @@ def gen_graph(fraternity):
         edge_attr={"arrowhead": "none"}
     )
 
-    family_trees = []
-
     for family in fraternity.families:
-        family_trees.append(graphviz.Digraph(
-            node_attr={"style": "filled","fillcolor": 'Red'}
-        ))
-    
-    # Add family trees to fraternity tree
-    for tree in family_trees:
+        tree = graphviz.Digraph(
+            node_attr={"style": "filled","fillcolor": 'Grey'}
+        )
+
+        # Add the family head and their littles to the tree
+        tree.node(family.head.name, family.head.name)
+        for little in family.head.littles:
+            tree.edge(family.head.name, little.name)
+
+        # Add the rest of the family to the tree
+        for bro in family.brothers:
+            tree.node(bro.name, bro.name)
+            for little in bro.littles:
+                tree.edge(bro.name, little.name)
+        
         fraternity_tree.subgraph(tree)
     
-    # fraternity_tree.graph_main.render('brothers', view=True)
-    # os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
+    fraternity_tree.render('brothers', view=True)
+    os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
     
     # ===========LEGACY CODE===========
     # # creates the first subgraph
