@@ -37,6 +37,7 @@ def gen_graph(fraternity):
     )
 
     for family in fraternity.families:
+        # Define tree style
         tree = graphviz.Digraph(
             node_attr={
                 "style": "filled",
