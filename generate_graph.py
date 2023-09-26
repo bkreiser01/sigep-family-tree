@@ -11,17 +11,8 @@ from brother import Brother
 
 DATA_CSV = 'SigEp.csv'
 family_colors = []
-  
-
-def find_founders(bros):
-    founders = []
-    for bro in bros:
-        if bro.big == "":
-            founders.append(bro)
-    return founders
 
 def gen_graph(fraternity):
-
     # creates the main graph
     fraternity_tree = graphviz.Digraph(
         engine='dot',
@@ -36,7 +27,14 @@ def gen_graph(fraternity):
             node_attr={"style": "filled","fillcolor": 'Red'}
         ))
     
-
+    # Add family trees to fraternity tree
+    for tree in family_trees:
+        fraternity_tree.subgraph(tree)
+    
+    fraternity_tree.graph_main.render('brothers', view=True)
+    os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
+    
+    # ===========LEGACY CODE===========
     # # creates the first subgraph
     # subgraphs = []
     # current_subgraph = graphviz.Digraph(
@@ -62,13 +60,6 @@ def gen_graph(fraternity):
     #         index+=1
     #     for little in brother_dict[big]:
     #         current_subgraph.edge(big, little)
-
-    # # join all subgraphs together
-    # for subgraph in subgraphs:
-    #     graph_main.subgraph(subgraph)
-
-    # fraternity_tree.graph_main.render('brothers', view=True)
-    # os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
 
 
 def main():
