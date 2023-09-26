@@ -6,6 +6,7 @@
 import graphviz
 import os
 import random
+import sys
 
 from fraternity import Fraternity
 
@@ -62,6 +63,6 @@ def gen_graph(fraternity):
     os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
 
 def main():
-    gen_graph(Fraternity(DATA_CSV))
+    gen_graph(Fraternity(sys.argv[1]))
 
 main()
