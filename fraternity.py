@@ -62,7 +62,7 @@ class Fraternity(object):
         # Sort for readability
         for bro in self.brothers:
             arr.append(bro.name)
-        arr.sort()
+        arr.sort() 
 
         for e in arr:
             out += e + '\n'
