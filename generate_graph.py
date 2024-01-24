@@ -10,12 +10,12 @@ import sys
 
 from fraternity import Fraternity
 
-family_colors = []
-
+# Formats a brother object into a string for graphviz
 def __format(bro):
     return f"{bro.name}\n{bro.role} {bro.ec}"
 
-def generate_random_color(mix=None):
+# Generates a random pastel color
+def generate_random_pastel(mix=None):
     red = random.randint(0, 255)
     green = random.randint(0, 255)
     blue = random.randint(0, 255)
@@ -28,6 +28,7 @@ def generate_random_color(mix=None):
 
     return "#{:02x}{:02x}{:02x}".format(red, green, blue)
 
+# Generates a graph based on the fraternity object
 def gen_graph(fraternity):
     # creates the main graph
     fraternity_tree = graphviz.Digraph(
@@ -41,7 +42,7 @@ def gen_graph(fraternity):
         tree = graphviz.Digraph(
             node_attr={
                 "style": "filled",
-                "fillcolor": generate_random_color((255,255,255))
+                "fillcolor": generate_random_pastel((255,255,255))
                 }
         )
 
@@ -58,6 +59,7 @@ def gen_graph(fraternity):
         
         fraternity_tree.subgraph(tree)
     
+    # Render the graph and remove leftover files
     fraternity_tree.render('brothers', view=True)
     os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
 
@@ -65,6 +67,11 @@ def main():
     if len(sys.argv) != 2:
         print("Useage: python3 generate_graph.py <csv file>")
         return
-    gen_graph(Fraternity(sys.argv[1]))
+    
+    # Create the fraternity object based on the inputted csv
+    fraternity = Fraternity(sys.argv[1])
+
+    # Generate a graph based on the fraternity object
+    gen_graph(fraternity)
 
 main()
