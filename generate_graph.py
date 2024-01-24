@@ -10,7 +10,6 @@ import sys
 
 from fraternity import Fraternity
 
-DATA_CSV = 'SigEp.csv'
 family_colors = []
 
 def __format(bro):
@@ -63,6 +62,9 @@ def gen_graph(fraternity):
     os.remove(os.path.dirname(os.path.abspath(__file__)) + '/brothers')
 
 def main():
+    if len(sys.argv) != 2:
+        print("Useage: python3 generate_graph.py <csv file>")
+        return
     gen_graph(Fraternity(sys.argv[1]))
 
 main()
